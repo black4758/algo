@@ -29,7 +29,7 @@ class dal_number_1954
 	            if(move==0)break;
 	            for(int i=0;i<move;i++) {
 	                x=x+di;
-	                arr[x][y]=number++;
+	                arr[x][y]=number++; 
 	            }
 	            di =di*-1; //방향 전환 으로 -1로 변환
 	        }
