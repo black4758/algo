@@ -12,7 +12,7 @@ public class sum_5_B11660_last {
         for(int i=1; i<N+1; i++) {
             for(int j=1; j<N+1; j++) {
             	arr[i][j] = arr[i][j-1] + arr[i-1][j] - arr[i-1][j-1] +sc.nextInt();
-            	// 누적 합은 나의 값에 왼쪽 위쪽 값을 더하고 중복으로 더한 값을 제거한다
+            	// 누적 합은 나의 값에 왼쪽 위쪽 값을 더하고 중복으로 더한 값을 제거한다.
             }
         }
 
