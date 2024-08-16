@@ -6,9 +6,8 @@ import java.io.FileInputStream;
 
 public class ham_SW5215
 {
-	static int N,L,arr[][];
+	static int N,L,arr[][],max;
 	static boolean charr[];
-	static ArrayList<Integer> list;
 	public static void main(String args[]) throws Exception
 	{
 
@@ -28,20 +27,20 @@ public class ham_SW5215
 					arr[i][j]= sc.nextInt();
 				}
 			}
-			list =new ArrayList<>();
+			max=0;
 			gibhab(0,0,0,0);
 			
-			list.sort((o1,o2)->(o1-o2)*-1); //가장 큰 점수 찾기
-			if(! list.isEmpty()) {
-				System.out.println(list.get(0));
-			}
-			else System.out.println("0");
+			System.out.println(max);
+
 		}
 	}
 	private static void gibhab(int cnt,int cal,int scol,int eCnt) {
+		if(cal>L) {
+			return ;
+		}
 		if(cnt == N ) {
 			if (eCnt>0 && cal<=L)  {
-				list.add(scol); //주어진 칼로리 이하의 합의 점수 리스트에 삽입
+				if(max<scol) max=scol;
 			}
 			return ;
 		}
