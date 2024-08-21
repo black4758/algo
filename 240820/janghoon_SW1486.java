@@ -22,7 +22,6 @@ public class Solution {
 		}
 	}
 	private static void combination(int cnt,int max) {
-		if(sum>max) return;
 		if(max>=H) {
 			sum= Math.min(sum, max);
 			return;
