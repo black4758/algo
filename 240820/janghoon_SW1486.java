@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Solution {
+public class janghoon_SW1486 {
 	static int [] arr;
 	static int N,H,sum;
 	public static void main(String[] args) {
@@ -17,11 +17,11 @@ public class Solution {
 			}
 			sum=Integer.MAX_VALUE;
 			
-			combination(0,0);
+			jibhab(0,0);
 			System.out.println("#"+test_case+" "+sum-H);
 		}
 	}
-	private static void combination(int cnt,int max) {
+	private static void jibhab(int cnt,int max) {
 		if(max>=H) {
 			sum= Math.min(sum, max);
 			return;
@@ -29,7 +29,7 @@ public class Solution {
 		if(cnt==N) {
 			return;
 		}
-		combination(cnt+1,max+arr[cnt]);
-		combination(cnt+1,max);
+		jibhab(cnt+1,max+arr[cnt]);
+		jibhab(cnt+1,max);
 	}
 }
