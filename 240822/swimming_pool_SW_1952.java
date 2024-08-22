@@ -8,7 +8,7 @@ public class soo_SW_1952
 	static int montharr[],day,month,month3,year,an;
 	public static void main(String args[]) throws Exception
 	{
-
+		//부분집합 이용
 		Scanner sc = new Scanner(System.in);
 		int T;
 		T=sc.nextInt();
