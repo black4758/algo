@@ -16,8 +16,8 @@ public class danji_BOJ_2667 {
 	static int N,an;
 	static int [][] arr;
 	static boolean [][] visited;
-	static int[] dx = {-1, 0, 1, 0 , 1, -1, 1, -1};
-	static int[] dy = {0, -1, 0, 1 , 1, 1, -1, -1};
+	static int[] dx = {-1, 0, 1, 0};
+	static int[] dy = {0, -1, 0, 1};
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		N= sc.nextInt();
