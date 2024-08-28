@@ -25,6 +25,7 @@ public class BOJ_2644 {
 
         Queue<Integer> q = new LinkedList<>();
         q.add(p1);
+        visited[p1]= visited[p1] +1;
         while(!q.isEmpty()) {
         	int temp=q.poll();
         	if(temp == p2) break;
@@ -35,8 +36,7 @@ public class BOJ_2644 {
                 }
             }
         }
-        if( visited[p2]==0)visited[p2]=-1;
-        System.out.println(visited[p2]);
+        System.out.println(visited[p2]-1);
 	}
 
 }
