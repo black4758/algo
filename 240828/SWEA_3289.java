@@ -19,22 +19,22 @@ public class SWEA_3289 {
 				}
 				if(st==1) {
 					
-					if(fideSet(a)==fideSet(b)) System.out.print(1);
+					if(findeSet(a)==findeSet(b)) System.out.print(1);
 					else System.out.print(0);
 				}
 			}
 			System.out.println();
 		}
 	}
-	 static int  fideSet(int a){
+	 static int  findeSet(int a){
 		if(arr[a]==0)return a;
-		return arr[a]=fideSet(arr[a]);
+		return arr[a]=findeSet(arr[a]);
 	}
 	static boolean union(int a, int b) {
-		int aroot=fideSet(a);
-		int broot=fideSet(b);
+		int aroot=findeSet(a);
+		int broot=findeSet(b);
 		if(aroot==broot) return false;
 		arr[broot]=aroot;
-		return false;
+		return true;
 	}
 }
