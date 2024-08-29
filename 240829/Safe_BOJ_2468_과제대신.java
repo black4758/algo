@@ -3,7 +3,7 @@ import java.util.Queue;
 import java.util.Scanner;
 
 
-public class Safe_BOJ_2468 {
+public class Safe_BOJ_2468_과제대신 {
 	public static void main(String[] args) {
 		Scanner sc= new Scanner(System.in);
 		int N= sc.nextInt();
@@ -23,31 +23,37 @@ public class Safe_BOJ_2468 {
 		for(int i=0;i<max;i++) {
 			count=0;
 			visited =new boolean[N][N];
-			for(int x=0;x<N;x++) {
-				for(int y=0;y<N;y++) {
-					if(arr[x][y]>i&&!visited[x][y]) {
+			for(int x=0;x<N;x++) 
+			{
+				for(int y=0;y<N;y++) 
+				{
+					if(arr[x][y]>i&&!visited[x][y])
+					{
 						q.add(new postion(x, y));
 						visited[x][y]=true;
-						while(!q.isEmpty()) {
+						while(!q.isEmpty())
+						{
 							postion now_q= q.poll();
-							for(int z=0;z<4;z++) {
+							for(int z=0;z<4;z++)
+							{
 								int nx=now_q.x+dx[z];
 								int ny=now_q.y+dy[z];
-								if(nx>=0&&nx<N&&ny<N&&ny>=0&& !visited[nx][ny]&&arr[nx][ny]>i) {
+								if(nx>=0&&nx<N&&ny<N&&ny>=0&& !visited[nx][ny]&&arr[nx][ny]>i)
+								{
 									visited[nx][ny]=true;
 									q.add(new postion(nx, ny));
 								}
 							}
 						}
 						count++;
-						}
 					}
 				}
-			an=Math.max(an, count);
 			}
+			an=Math.max(an, count);
+		}
 		System.out.println(an);
 	}
-	
+
 	static class postion{
 		int x,y;
 
