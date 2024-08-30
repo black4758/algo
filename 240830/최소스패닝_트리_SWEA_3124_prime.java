@@ -5,7 +5,7 @@ import java.util.PriorityQueue;
 import java.util.Scanner;
 
 
-public class 최소스매닝_트리_SWEA_3124_prime {
+public class 최소스패닝_트리_SWEA_3124_prime {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
