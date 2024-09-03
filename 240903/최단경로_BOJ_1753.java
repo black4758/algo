@@ -3,7 +3,7 @@ import java.util.PriorityQueue;
 import java.util.Scanner;
 
 
-public class 최단경로_BOJ_1753 {
+public class 최단경로_BOJ_1753  {
 	static int V,st;
 	static int[] minDistance;
 	public static void main(String[] args) {
@@ -33,6 +33,7 @@ public class 최단경로_BOJ_1753 {
 		boolean[] visited= new boolean[V+1];
 		PriorityQueue<position> queue= new PriorityQueue<>((a,b)->Integer.compare(a.cost,b.cost));
 		queue.add(new position(start, 0));
+		
 		minDistance[start] = 0;
 		while(! queue.isEmpty()) {
 			position curNode = queue.poll();
@@ -43,7 +44,7 @@ public class 최단경로_BOJ_1753 {
 	        for(position node : arr[cur]){
 	           if(!visited[node.vertex]&& minDistance[node.vertex] > minDistance[cur]+node.cost){
 	        	   minDistance[node.vertex]=minDistance[cur]+node.cost;
-	        	   queue.add(new position(node.vertex, minDistance[cur]+node.cost));
+	        	   queue.add(new position(node.vertex,minDistance[node.vertex]));
 	           }
 	        }
 		}
