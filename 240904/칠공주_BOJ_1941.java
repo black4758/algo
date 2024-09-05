@@ -29,7 +29,7 @@ public class 칠공주_BOJ_1941 {
 			}
 			return;
 		}
-		// 고른 수 7개를 existArr배열에 표현
+		// 고른 수 7개를 existArr배열에 표현.
 		for (int i = st; i < 25; i++) {
 			arr[cnt] = i;
 			existArr[i / 5][i % 5] = true; // 일반 수를 좌표 값으로 계산 (i/5,i%5)
