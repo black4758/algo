@@ -5,7 +5,7 @@ import java.util.Queue;
 import java.util.Scanner;
 
 public class 칠공주_BOJ_1941 {
-	static char[][] map; // 입력 받은 문자
+	static char[][] map; // 입력받은 문자
 	static boolean existArr[][]; // 조합으로 뽑은 7자리 수의 위치를 표현
 	static int dx[] = { 1, -1, 0, 0 };
 	static int dy[] = { 0, 0, -1, 1 }, an = 0;
@@ -29,7 +29,7 @@ public class 칠공주_BOJ_1941 {
 			}
 			return;
 		}
-		// 고른 수 7개를 existArr배열에 표현.
+		// 고른 수 7개를 existArr 배열에 표현
 		for (int i = st; i < 25; i++) {
 			arr[cnt] = i;
 			existArr[i / 5][i % 5] = true; // 일반 수를 좌표 값으로 계산 (i/5,i%5)
@@ -42,8 +42,8 @@ public class 칠공주_BOJ_1941 {
 
 	}
 
-	private static void bfs(int start) { // 모든 수가 연결되어야하니 7개 숫자중 시작은 상관 없음
-		boolean[][] nowVisit = new boolean[5][5]; // 방문 체크 하기위한 배열
+	private static void bfs(int start) { // 모든 수가 연결되어야 하니 7개 숫자 중 시작은 상관없음
+		boolean[][] nowVisit = new boolean[5][5]; // 방문 체크하기 위한 배열
 		int count = 1;
 
 		Queue<Integer> q = new LinkedList<>();
@@ -55,8 +55,8 @@ public class 칠공주_BOJ_1941 {
 				int nx = now / 5 + dx[i];
 				int ny = now % 5 + dy[i];
 				if (nx >= 0 && nx < 5 && ny >= 0 && ny < 5 && existArr[nx][ny] && !nowVisit[nx][ny]) {
-					// 4방위에 부분집합으로 고른 숫자(existArr 배열이 true)가 있으며 방문한 적이있는지 (nowVisit)
-					q.add(nx * 5 + ny); // 배열 위치 좌표를 숫자로 면환 한 후 삽입
+					// 4방위에 부분집합으로 고른 숫자(existArr 배열이 true)가 있으며 방문한 적이 있는지 (nowVisit)
+					q.add(nx * 5 + ny); // 배열 위치 좌표를 숫자로 변환한 후 삽입
 					nowVisit[nx][ny] = true;
 					count++;
 				}
