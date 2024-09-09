@@ -29,9 +29,8 @@ public class 나무높이_SWEA_14510 {
 				}
 			}
 			int day=0;
-
+			Collections.sort(list,Collections.reverseOrder());
 			while(!list.isEmpty()) {	
-                Collections.sort(list,Collections.reverseOrder());
 				day++;
 				for (int i = 0; i < list.size(); i++) {
 					if(day%2 ==0 && max -list.get(i) !=1) {
