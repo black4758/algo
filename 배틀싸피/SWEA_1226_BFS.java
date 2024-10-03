@@ -8,7 +8,7 @@ public class SWEA_1226_BFS {
 		
 		int dx[]= {1,-1,0,0};
 		int dy[]= {0,0,1,-1};
-		for (int tc = 1; tc < 10; tc++) {
+		for (int tc = 0; tc < 10; tc++) {
 			Queue<Position> q = new LinkedList<>();
 			int T= sc.nextInt();
 			int[][] map = new int[16][16];
@@ -24,7 +24,7 @@ public class SWEA_1226_BFS {
 					
 				}
 			}
-			int an=-1;
+			int an=0;
 
 			while(!q.isEmpty()) {
 				Position now = q.poll();
