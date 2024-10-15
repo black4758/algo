@@ -35,7 +35,7 @@ public class SWEA_5653 {
 				}
 			}
 			
-			while(K >0) {
+			while(K-->0) {
 				int cnn= q.size();
 				for (position now : q ) {
 					if(now.temp==0) {
