@@ -1,58 +1,76 @@
-package algo;
-
-import java.util.Arrays;
-import java.util.Scanner;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 
 public class Baby_Gin {
-	static int arrre[];
-	static boolean ch[];
-	static int cl=0;
-	public static void main(String[] args) {
-		//순열로 모든 걍우의 수를 구한 후 베이비진 인지 구하기
-		Scanner sc= new Scanner(System.in);
-		arrre= new int[6];
-		ch= new boolean[6];
-		int[] arr= new int[6];
-		String input =sc.next();
-		for(int i=0;i<6;i++) {
-			arr[i]=input.charAt(i)-'0';
-		}
-		sun(arr,0);
-		if(cl==2)
-			System.out.println("true");
-		else {
-			System.out.println("no");
-		}
-	}
-	static	void Baby_gin(int[] arr ) {
-		cl=0;
-		if(arr[0]== arr[1] &&arr[1]==arr[2]) {
-			cl++;
-		}
-		if(arr[3]== arr[4] &&arr[4]==arr[5]) {
-			cl++;
-		}
-		if(arr[0]== arr[1]-1 &&arr[1]==arr[2]-1) {
-			cl++;
-		}
-		if(arr[3]== arr[4]-1 &&arr[4]==arr[5]-1) {
-			cl++;
-		}
+	static boolean isSelected[];
+	static  int arr[];
+	static int[] selected;
+	static  boolean answer;
 
-		
-	}
-	static void sun(int[] arr,int temp) {
-		if(temp==6) {
-			Baby_gin(arrre);
-			return;
-		}
-		for (int i = 0; i < arr.length; i++) {
-			if(!ch[i]) {
-				ch[i]=true;
-				arrre[temp]=arr[i];
-				sun(arr,temp+1);
-				ch[i]=false;
+	//순열로 모든 걍우의 수를 구한 후 베이비진 인지 구하기
+
+	public static void main(String[] args) throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		arr= new int[6];
+		isSelected= new boolean[6];
+		selected = new int[6];
+		int n= Integer.parseInt(br.readLine());
+		for (int i = 0; i < n; i++) {
+			answer=false;
+			String input= br.readLine();
+			for (int j = 0; j < 6; j++) {
+				arr[j]=input.charAt(j)-'0';
+			}
+			permutation(0);
+			if(answer){
+				System.out.println("YES");
+			}
+			else{
+				System.out.println("NO");
 			}
 		}
+	}
+
+	private static void permutation(int cnt) {
+		if (answer){
+			return;
+		}
+		if(cnt==6){
+			if(isBabyGin()){
+				answer=true;
+			};
+			return;
+		}
+
+		for(int i=0;i<6;i++){
+			if(isSelected[i]){
+				continue;
+			}
+			selected[cnt]=arr[i];
+			isSelected[i]=true;
+			permutation(cnt+1);
+			isSelected[i]=false;
+		}
+	}
+
+	private static boolean isBabyGin() {
+		if(selected[0]==selected[1] && selected[1]==selected[2]){
+			if(selected[3]+1==selected[4] &&selected[4]==selected[5]-1 ){
+				return true;
+			}
+			if(selected[3]==selected[4] &&selected[4]==selected[5]){
+				return true;
+			}
+		}
+		if(selected[0]+1==selected[1] && selected[1]==selected[2]-1){
+			if(selected[3]+1==selected[4] &&selected[4]==selected[5]-1 ){
+				return true;
+			}
+			if(selected[3]==selected[4] &&selected[4]==selected[5]){
+				return true;
+			}
+		}
+		return false;
 	}
 }
