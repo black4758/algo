@@ -1,34 +1,46 @@
 
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.Scanner;
+import java.util.StringTokenizer;
 
 public class N_M_B15649 {
 	//순열 이용
-	static int[] arr;
-	static boolean [] ch;
-	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		int N = sc.nextInt();
-		int M = sc.nextInt();
-		arr= new int[M];
-		ch= new boolean[N];
-		sunyal(N,M,0);
+	static int [] selected;
+	static boolean[] isSelected;
+	static int N;
+	static int M;
+	static StringBuffer answer;
+	public static void main(String[] args) throws IOException {
+		BufferedReader br  = new BufferedReader(new InputStreamReader(System.in));
+		StringTokenizer st = new StringTokenizer(br.readLine());
+		answer= new StringBuffer();
+		N = Integer.parseInt(st.nextToken());
+		M = Integer.parseInt(st.nextToken());
+		selected =new int[M];
+		isSelected = new boolean[N];
+		peremutation(0);
+		System.out.println(answer);
 	}
-	private static void sunyal(int N,int M, int tm) {
-		if(tm==M) {
-			for(int i=0;i<M;i++) {
-				System.out.print(arr[i]+" ");
+
+	private static void peremutation(int cnt) {
+		if (cnt == M) {
+			for (int i = 0; i < M; i++) {
+				answer.append(selected[i] + " ");
 			}
-			System.out.println();
+			answer.append("\n");
 			return;
 		}
-		for(int i=0;i<N;i++) {
-			if(!ch[i]) {
-				ch[i]=true;
-				arr[tm]=i+1;
-				sunyal(N,M,tm+1);
-				ch[i]=false;
+		for (int i = 0; i < N; i++) {
+			if (isSelected[i]) {
+				continue;
 			}
+			selected[cnt] = i+1;
+			isSelected[i] = true;
+			peremutation(cnt + 1);
+			isSelected[i] = false;
 		}
 	}
 	
