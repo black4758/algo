@@ -35,6 +35,7 @@ class gi_SW_6808 {
 			System.out.println("#" + t + " " + win + " " + lose);
 		}
 	}
+	
 	private static void permutation(int cnt) {
 		if (cnt==9) {
 			int iScore=0;
