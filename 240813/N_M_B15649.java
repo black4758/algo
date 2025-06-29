@@ -4,8 +4,7 @@ import java.io.InputStreamReader;
 import java.util.Scanner;
 import java.util.StringTokenizer;
 
-public class N_M_B15649 {
-	//순열 이용
+public class N_M_B15649 { //순열 이용
 	static int [] selected;
 	static boolean[] isSelected;
 	static int N;
