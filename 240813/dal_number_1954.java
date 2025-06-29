@@ -42,3 +42,42 @@ class dal_number_1954
 		}
 	}
 }
+
+
+
+// public class dal_number_1954 {
+//     static int[] dx={0,1,0,-1};
+//     static int[] dy={1,0,-1,0};
+//     public static void main(String[] args) {
+//         Scanner scanner = new Scanner(System.in);
+//         int T = scanner.nextInt();
+
+//         for (int t = 1; t <= T; t++) {
+//             int dir=0;
+//             int n = scanner.nextInt();
+//             int[][] arr = new int[n][n];
+//             int x = 0 ;
+//             int y = 0 ;
+//             for (int i = 0; i < n; i++) {
+//                 for (int j = 0; j < n; j++) {
+//                     arr[x][y]=i*n+j+1;
+
+//                     int nx=x+dx[dir];
+//                     int ny=y+dy[dir];
+//                     if(!(nx>=0 && nx<n && ny>=0 && ny<n && arr[nx][ny]==0)){
+//                         dir=(dir+1)%4;
+//                     }
+//                     x=x+dx[dir];;
+//                     y=y+dy[dir];
+//                 }
+//             }
+//             System.out.println("#" + t);
+//             for (int i = 0; i < n; i++) {
+//                 for (int j = 0; j < n; j++) {
+//                     System.out.print(arr[i][j] + " ");
+//                 }
+//                 System.out.println();
+//             }
+//         }
+//     }
+// }
