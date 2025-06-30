@@ -1,93 +1,27 @@
 # 알고리즘 공부
 
-
-
-## Getting started
-
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
-
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
-
-## Add your files
-
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
-
-```
-cd existing_repo
-git remote add origin https://lab.ssafy.com/arblack475867/algo.git
-git branch -M master
-git push -uf origin master
-```
-
-## Integrate with your tools
-
-- [ ] [Set up project integrations](https://lab.ssafy.com/arblack475867/algo/-/settings/integrations)
-
-## Collaborate with your team
-
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Set auto-merge](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
-
-## Test and Deploy
-
-Use the built-in continuous integration in GitLab.
-
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing (SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
-
-***
-
-# Editing this README
-
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thanks to [makeareadme.com](https://www.makeareadme.com/) for this template.
-
-## Suggestions for a good README
-
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
-
-## Name
-Choose a self-explaining name for your project.
-
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
-
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
-
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
-
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
-
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
-
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
-
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
-
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
-
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
-
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
-
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
-
-## License
-For open source projects, say how it is licensed.
-
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+| 날짜 | 학습주제 | 학습예제 | 학습문제 | 과제 |
+| ------ | ------ | ------ | ------ | ------ |
+| 240813 | 순열 | Baby-Gin | [Baby-Gin](https://swexpertacademy.com/main/code/userProblem/userProblemDetail.do?contestProbId=AYZS3UfKuQgDFARc&categoryId=AYZS3UfKuQgDFARc&categoryType=CODE) <br> [N과 M (1)](https://www.acmicpc.net/problem/15649) <br> [Ladder1](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14ABYKADACFAYh) <br> [규영이와 인영이의 카드게임](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWgv9va6HnkDFAW0) <br> [줄기세포배양](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXRJ8EKe48DFAUo) | [달팽이 숫자](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PobmqAPoDFAUq) |
+| 240814 | 조합 | 주사위던지기 | [N과 M (2)](https://www.acmicpc.net/problem/15650) <br> [백설 공주와 일곱 난쟁이](https://www.acmicpc.net/problem/3040) <br> [구간 합 구하기 4](https://www.acmicpc.net/problem/11659) <br> [구간 합 구하기 5](https://www.acmicpc.net/problem/11660) <br> [파리퇴치](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PzOCKAigDFAUq) <br> [특이한 자석](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWIeV9sKkcoDFAVH) | [괄호 짝짓기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14eWb6AAkCFAYD)|
+| 240816 | 부분집합 | 부분집합 구하기 <br> 부분집합의 합 | [햄버거 다이어트](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWT-lPB6dHUDFAVT) <br> [집합](https://www.acmicpc.net/problem/11723) <br> [수제 버거 장인](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWErcQmKy6kDFAXi) <br> [도영이가 만든 맛있는 음식](https://www.acmicpc.net/problem/2961) <br> [DNA 비밀번호](https://www.acmicpc.net/problem/12891) <br> [신기한 소수](https://www.acmicpc.net/problem/2023) <br> [보호 필름](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5V1SYKAaUDFAWu) <br> [준환이의 양팔저울](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWAe7XSKfUUDFAUw) <br> [무선 충전](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXRDL1aeugDFAUo) | [암호생성기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14uWl6AF0CFAYD) |
+| 240819 | 순열조합응용 | 비트마스킹 순열 <br> Next Permutation <br> Next Permutation 활용 | [숫자 만들기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWIeRZV6kBUDFAVH) <br> [야구]( https://www.acmicpc.net/problem/17281) <br> [요리사](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWIeUtVakTMDFAVH) <br> [Magnetic](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14hwZqABsCFAYD) | |
+| 240820 | 그리디 | 배낭 짐싸기 <br> 회의실 배정 <br> 동전 자판기 | [회의실 배정](https://www.acmicpc.net/problem/1931) <br> [동전 자판기(下)](https://jungol.co.kr/problem/1183) <br> [농작물 수확하기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV7GLXqKAWYDFAXB) <br> [설탕 배달](https://www.acmicpc.net/problem/2839) <br> [의석이의 우뚝 선 산](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWS2h6AKBCoDFAVT) <br> [배열 돌리기 1](https://www.acmicpc.net/problem/16926) <br> [나무 높이](https://swexpertacademy.com/main/code/userProblem/userProblemDetail.do?contestProbId=AYFofW8qpXYDFAR4) | [장훈이의 높은 선반](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV2b7Yf6ABcBBASw)|
+| 240821 | 분할정복 | 가짜 동전찾기 <br> 거듭제곱 <br> 같은 색 공간 만들기 <br> 이진검색 | [색종이 만들기](https://www.acmicpc.net/problem/2630) <br> [색종이](https://www.acmicpc.net/problem/2563) <br> [현주가 좋아하는 제곱근 놀이](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWgqsAlKr9sDFAW0) <br> [보호 필름](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5V1SYKAaUDFAWu) <br> [Z](https://www.acmicpc.net/problem/1074) <br> [타일 채우기](https://jungol.co.kr/problem/2543) | [추억의 2048게임](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWbrg9uabZsDFAWQ) |
+| 240822 | 백트래킹 | NQueen <br> 부분 집합의 합 | [수영장](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PpFQaAQMDFAUq) <br> [N-Queen](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV7GKs06AU0DFAXB) <br> [색종이 - 2](https://www.acmicpc.net/problem/2567) <br> [햄버거 다이어트](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWT-lPB6dHUDFAVT) <br> [계란으로 계란치기](https://www.acmicpc.net/problem/16987) <br> [월드컵](https://www.acmicpc.net/problem/6987)  | [정사각형 방](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5LtJYKDzsDFAXc) |
+| 240823 | 그래프 1 | 인접 행렬 <br> 인접 리스트 <br> 간선 리스트 | [게리맨더링](https://www.acmicpc.net/problem/17471) <br> [롤 케이크](https://www.acmicpc.net/problem/3985) <br> [최적 경로](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV15OZ4qAPICFAYD) <br> [한빈이와 Spot Mart](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AW8Wj7cqbY0DFAXN) <br> [무선 충전](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXRDL1aeugDFAUo) | [상호의 배틀필드](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5LyE7KD2ADFAXc) |
+| 240826 | 그래프 2 - BFS | 인접 행렬 <br> 인접 리스트 <br> 최단 경로 |  | [치즈](https://www.acmicpc.net/problem/2636) |
+| 240827 | 그래프 3 - DFS | 인접 행렬 <br> 인접 리스트 <br> Flood Fill 알고리즘 <br> 위상 정렬 | [DFS와 BFS](https://www.acmicpc.net/problem/1260) <br> [섬의 개수](https://www.acmicpc.net/problem/4963) <br> [단지번호붙이기](https://www.acmicpc.net/problem/2667) <br> [숨바꼭질](https://www.acmicpc.net/problem/1697) <br> [적록색약](https://www.acmicpc.net/problem/10026) <br> [알파벳](https://www.acmicpc.net/problem/1987) <br> [줄세우기](https://www.acmicpc.net/problem/2252) <br> [캐슬디펜스](https://www.acmicpc.net/problem/17135) <br> [파핑파핑 지뢰찾기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5LwsHaD1MDFAXc) <br> [미생물 격리](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV597vbqAH0DFAVl) | [디저트 카페](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5VwAr6APYDFAWu) |
+| 240828 | 서로소 집합 | Union-Find | [서로소 집합](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWBJKA6qr2oDFAWr) <br> [창용 마을 무리의 개수](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWngfZVa9XwDFAQU) <br> [촌수계산](https://www.acmicpc.net/problem/2644) <br> [토마토](https://www.acmicpc.net/problem/7576) <br> [ABCDE](https://www.acmicpc.net/problem/13023) <br> [감시](https://www.acmicpc.net/problem/15683) <br> [빵집](https://www.acmicpc.net/problem/3109) | [Contact](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV15B1cKAKwCFAYD) |
+| 240829 | 최소신장트리(MST) - Kruskal | Kruskal | [최소 스패닝 트리](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV_mSnmKUckDFAWb) <br> [하나로](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV15StKqAQkCFAYD) <br> [치킨 배달](https://www.acmicpc.net/problem/15686) <br> [네트워크 연결](https://www.acmicpc.net/problem/1922) <br> [안전영역](https://www.acmicpc.net/problem/2468) <br> [수영대회](https://swexpertacademy.com/main/code/userProblem/userProblemDetail.do?contestProbId=AWKaCc-KABgDFAT2) <br> [탈출](https://www.acmicpc.net/problem/3055) | [점심 식사시간](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5-BEE6AK0DFAVl) |
+| 240830 | 최소신장트리(MST) - Prim | Prim | [최소 스패닝 트리](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV_mSnmKUckDFAWb) <br> [하나로](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV15StKqAQkCFAYD) <br> [미로 탐색](https://www.acmicpc.net/problem/2178) <br> [그룹 나누기](https://swexpertacademy.com/main/code/userProblem/userProblemDetail.do?contestProbId=AX--pdmaF9YDFARi) <br> [음악프로그램](https://www.acmicpc.net/problem/2623) <br> [냉장고](https://jungol.co.kr/problem/1828?cursor=eyJwcm9ibGVtc2V0Ijo4LCJmaWVsZCI6MiwiaWR4IjozfQ%3D%3D) | [프로세서 연결하기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV4suNtaXFEDFAUf) |
+| 240902 | 최단경로 1 | Dijkstra | [막대기](https://www.acmicpc.net/problem/1094) <br> [내리막길](https://www.acmicpc.net/problem/1520) <br> [창영이의 일기장](https://www.acmicpc.net/problem/2954) <br> [외판원 순회2](https://www.acmicpc.net/problem/10971) <br> [최단경로](https://www.acmicpc.net/problem/1753) <br> [연구소](https://www.acmicpc.net/problem/14502) <br> [창용 마을 무리의 개수](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWngfZVa9XwDFAQU) <br> [물놀이를 가자](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AXWXMZta-PsDFAST) | [벌꿀 채취](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5V4A46AdIDFAWu) |
+| 240903 | 최단경로 2 | Dijkstra with PriorityQueue | [외판원 순회2](https://www.acmicpc.net/problem/10971) <br> [최단경로](https://www.acmicpc.net/problem/1753) <br> [보급로](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV15QRX6APsCFAYD) <br> [슈퍼 마리오](https://www.acmicpc.net/problem/2851) <br> [녹색 옷 입은 애가 젤다지?](https://www.acmicpc.net/problem/4485) <br> [회전초밥](https://www.acmicpc.net/problem/15961) <br> [탈주범 검거](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PpLlKAQ4DFAUq) <br> [방향 전환](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWyNQrCahHcDFAVP) <br> [벽 부수고 이동하기](https://www.acmicpc.net/problem/2206) <br> | [홈 방범 서비스]() |
+| 240904 | 동적계획법(DP) 1 | 피보나치 수열 | [1로 나누기](https://www.acmicpc.net/problem/1463) <br> [롤 케이크](https://www.acmicpc.net/problem/3985) <br> [2×n 타일링](https://www.acmicpc.net/problem/11726) <br> [2×n 타일링2](https://www.acmicpc.net/problem/11727) <br> [RGB 거리](https://www.acmicpc.net/problem/1149) <br> [수영장](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PpFQaAQMDFAUq) <br> [소문난 칠공주](https://www.acmicpc.net/problem/1941) <br>| [등산로 조성](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PoOKKAPIDFAUq) |
+| 240905 | 동적계획법(DP) 2 | 이항 계수 구하기 <br> 거스름돈 구하기 <br> 미로 이동하기 | [파이프 옮기기1](https://www.acmicpc.net/problem/17070) <br> [안경이 없어](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWl0ZQ8qn7UDFAXz) <br> [차량 정비소](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV6c6bgaIuoDFAXy) <br> [파이프 옮기기2](https://www.acmicpc.net/problem/17069) <br> | [키순서](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXQsLWKd5cDFAUo) |
+| 240906 | | [키순서](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXQsLWKd5cDFAUo) | [오목](https://www.acmicpc.net/problem/2615) <br> [보물상자 비밀번호](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXRUN9KfZ8DFAUo) <br> [말이 되고픈 원숭이](https://www.acmicpc.net/problem/1600) <br> | |
+| 240930 | DP3 - Knapsack | | [평범한 배낭](https://www.acmicpc.net/problem/12865) <br> [상호의 배틀필드](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5LyE7KD2ADFAXc) <br> [탈출](https://www.acmicpc.net/problem/3055) <br> [벽 부수고 이동하기](https://www.acmicpc.net/problem/2206) | [0/1 Knapsack](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWBJAVpqrzQDFAWr) |
+| 241002 | DP4 - 최장증가부분수열(LIS) | | [최장 증가 부분 수열](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWBOKg-a6l0DFAWr) <br> [달이 차오른다, 가자.](https://www.acmicpc.net/problem/1194) <br> [스도쿠](https://www.acmicpc.net/problem/2239) | [핀볼 게임](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXRF8s6ezEDFAUo) |
+| 241010 | DP5 - 플로이드-와샬 | | [사람 네트워크2](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV18P2B6Iu8CFAZN) <br> [맥주 마시면서 걸어가기](https://www.acmicpc.net/problem/9205) <br> [키 순서](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXQsLWKd5cDFAUo) | [활주로 건설](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWIeW7FakkUDFAVH) |
+| 241011 | 문자열 검색 - KMP | | [찾기](https://www.acmicpc.net/problem/1786) <br> [원자 소멸 시뮬레이션](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXRFInKex8DFAUo) | [벽돌 깨기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXRQm6qfL0DFAUo) |
+| 241014 | 컴퓨팅 사고력 | | | [줄기세포배양](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXRJ8EKe48DFAUo) |
