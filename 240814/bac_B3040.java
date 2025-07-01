@@ -1,33 +1,36 @@
-import java.util.Scanner;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 
 public class bac_B3040 {
-	static int[] arr,rearr;
-	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		arr = new int[9];
-		rearr=new int[7];
-		for(int i=0;i<9;i++) {
-			arr[i]=sc.nextInt();
-		}
-		johab(0,0);
-	}
-	//풀이법 조합으로 모든 경우의 수를 구한 뒤 합이 100인 것을 구하기
-	private static void johab(int cnt, int st) {
-		if(cnt==7) {
-			int answer=0;
-			for(int i=0; i<7;i++) {
-				answer=answer+rearr[i];
-			}
-			if(answer==100) { //합이 100이면 출력
-				for(int i=0; i<7;i++) {
-					System.out.println(rearr[i]);
-				}
-			}
-			return;
-		}
-		for(int i=st; i<9;i++) {
-			rearr[cnt]=arr[i];
-			johab(cnt+1,i+1);
-		}
-	}
+    static int arr[];
+    static int num[];
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        arr=new int[9];
+        num=new int[7];
+        for (int i = 0; i < 9; i++) {
+            arr[i]=Integer.parseInt(br.readLine());
+        }
+        combination(0,0,0);
+    }
+    static void combination(int cnt, int st, int sum) {
+        if(sum>100){
+            return;
+        }
+        else if (cnt == 7) {
+            if(sum==100){
+                for(int i=0;i<7;i++){
+                    System.out.println(num[i]);
+                }
+                System.exit(0);
+            }
+            return;
+        }
+        for(int i=st;i<9;i++){
+            num[cnt]=arr[i];
+            combination(cnt+1,i+1,sum+num[cnt]);
+        }
+
+    }
 }
