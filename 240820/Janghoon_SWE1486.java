@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class janghoon_SW1486 {
+public class Janghoon_SW1486 {
 	static int [] arr;
 	static int N,H,sum;
 	public static void main(String[] args) {
