@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SWE1486 {
+public class SWEA1486 {
 	static int [] arr;
 	static int N,H,sum;
 	public static void main(String[] args) {
