@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class Boj1931 {
+public class BOJ1931 {
     static class Time{
         int start;
         int end;
