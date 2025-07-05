@@ -2,7 +2,7 @@ import java.util.Scanner;
 import java.io.FileInputStream;
 
 
-class dal_number_1954
+class DalNumber1954
 {
 	public static void main(String args[]) throws Exception
 	{
