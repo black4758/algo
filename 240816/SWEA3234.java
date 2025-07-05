@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class 준환이의_양팔저울_SWEA_3234 {
+public class SWEA3234 {
     static int N;
     static int[] input;
     static int[] num;
