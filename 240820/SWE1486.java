@@ -15,7 +15,7 @@ public class SWE1486 {
 			for(int i=0;i<N;i++) {
 				arr[i]=sc.nextInt();
 			}
-			sum=Integer.MAX_VALUE;
+			sum=Integer.MAX_VALUE; 
 			
 			jibhab(0,0);
 			System.out.println("#"+test_case+" "+sum-H);
