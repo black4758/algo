@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SWE5215 {
+public class SWEA5215 {
     static int[][] arr;
     static int N;
     static int L;
