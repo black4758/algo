@@ -3,7 +3,7 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class SWE3421 {
+public class SWEA3421 {
     static int arr[][],n,m,an;
     static boolean visited[];
     public static void main(String[] args) {
