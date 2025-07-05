@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Number_SW4008 {
+public class SWEA4008 {
     static int[] operatorCounts;
     static int[] numbers;
     static int max, min, N;
