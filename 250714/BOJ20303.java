@@ -1,5 +1,3 @@
-package main.java._2025_06_26;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
