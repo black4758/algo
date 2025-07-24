@@ -25,3 +25,7 @@
 | 241010 | DP5 - 플로이드-와샬 | | [사람 네트워크2](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV18P2B6Iu8CFAZN) <br> [맥주 마시면서 걸어가기](https://www.acmicpc.net/problem/9205) <br> [키 순서](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXQsLWKd5cDFAUo) | [활주로 건설](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWIeW7FakkUDFAVH) |
 | 241011 | 문자열 검색 - KMP | | [찾기](https://www.acmicpc.net/problem/1786) <br> [원자 소멸 시뮬레이션](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXRFInKex8DFAUo) | [벽돌 깨기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXRQm6qfL0DFAUo) |
 | 241014 | 컴퓨팅 사고력 | | | [줄기세포배양](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXRJ8EKe48DFAUo) |
+| 250707 | 완전탐색 & 백트래킹 | | [고층 건물](https://www.acmicpc.net/problem/1027) <br> [감소하는 수](https://www.acmicpc.net/problem/1038) | |
+| 250708 | 최단경로 | | [최소비용 구하기 2](https://www.acmicpc.net/problem/11779) | |
+| 250709 | 최단경로 응용 | | [파티](https://www.acmicpc.net/problem/1238) <br> [특정한 최단 경로](https://www.acmicpc.net/problem/1504) | |
+| 250710 | 위상정렬 & 그리디 | | [ACM Craft](https://www.acmicpc.net/problem/1005) <br> [동전 0](https://www.acmicpc.net/problem/11047) <br> [게임 개발](https://www.acmicpc.net/problem/1516) <br> [후위 표기식](https://www.acmicpc.net/problem/1918) | |
