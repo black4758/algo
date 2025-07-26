@@ -44,3 +44,4 @@
 | 250723 | DP, 기하학 | | [진우의 달 여행 (Large)](https://www.acmicpc.net/problem/17485) <br> [내려가기](https://www.acmicpc.net/problem/2096) <br> [다각형의 면적](https://www.acmicpc.net/problem/2166) | |
 | 250724 | 투 포인터, 슬라이딩 윈도우, 누적 합 | | [부분합](https://www.acmicpc.net/problem/1806) <br> [태상이의 훈련소 생활](https://www.acmicpc.net/problem/19951) <br> [수열](https://www.acmicpc.net/problem/2559) | |
 | 250725 | 투 포인터, 누적 합 | | [지민이의 테러 Season II](https://www.acmicpc.net/problem/1650) <br> [수들의 합 2](https://www.acmicpc.net/problem/2003) <br> [2차원 배열의 합](https://www.acmicpc.net/problem/2167) | |
+| 250726 | 트리 | | [이진 검색 트리](https://www.acmicpc.net/problem/5639) | |
