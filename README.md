@@ -46,3 +46,4 @@
 | [250725](https://github.com/black4758/algo/tree/master/250725) | 투 포인터, 누적 합 | | [지민이의 테러 Season II](https://www.acmicpc.net/problem/1650) <br> [수들의 합 2](https://www.acmicpc.net/problem/2003) <br> [2차원 배열의 합](https://www.acmicpc.net/problem/2167) | |
 | [250726](https://github.com/black4758/algo/tree/master/250726) | 트리 (이진 검색 트리, 순회) | | [이진 검색 트리](https://www.acmicpc.net/problem/5639) | |
 | [250727](https://github.com/black4758/algo/tree/master/250727) | 투 포인터, 이분 탐색 | | [합이 0인 네 정수](https://www.acmicpc.net/problem/7453) | |
+| [250728](https://github.com/black4758/algo/tree/master/250728) | 정수론, 에라토스테네스의 체 응용 | | [수 나누기 게임](https://www.acmicpc.net/problem/27172) | |
