@@ -47,3 +47,4 @@
 | [250726](https://github.com/black4758/algo/tree/master/250726) | 트리 (이진 검색 트리, 순회) | | [이진 검색 트리](https://www.acmicpc.net/problem/5639) | |
 | [250727](https://github.com/black4758/algo/tree/master/250727) | 투 포인터, 이분 탐색 | | [합이 0인 네 정수](https://www.acmicpc.net/problem/7453) | |
 | [250728](https://github.com/black4758/algo/tree/master/250728) | 정수론, 에라토스테네스의 체 응용 | | [수 나누기 게임](https://www.acmicpc.net/problem/27172) | |
+| [250729](https://github.com/black4758/algo/tree/master/250729) | 투 포인터, 이분 탐색 | | [세 용액](https://www.acmicpc.net/problem/2473) | |
