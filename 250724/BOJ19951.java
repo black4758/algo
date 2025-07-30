@@ -15,7 +15,7 @@ public class BOJ19951 {
         for (int i = 1; i <= N; i++) {
             input[i] = Integer.parseInt(st.nextToken());
         }
-        int [] store = new int[N+2];
+        int [] store = new int[N+2]; // 변화량 배열
         for (int i = 0; i < M; i++) {
             st = new StringTokenizer(br.readLine());
             int start = Integer.parseInt(st.nextToken());
@@ -23,14 +23,16 @@ public class BOJ19951 {
             int cost = Integer.parseInt(st.nextToken());
             store[start]+=cost;
             store[end+1]-=cost;
+            //end+1애 -cost인 이유는 end+1일때 이전값이 더해지니깐 이전값을 뻄
+            // 이전까지 더해졌던 cost 값이 더해지지 않도록 상쇄시키기 위함입니다.
         }
         for (int i = 1; i <= N; i++) {
-            store[i] += store[i-1];
+            store[i] += store[i-1]; // 누적합으로 최종 변화량 구하기
         }
 
         StringBuilder sb = new StringBuilder();
         for (int i = 1; i <= N; i++) {
-            input[i] += store[i]; // store[i]는 이제 i칸의 총 변화량
+            input[i] += store[i]; //  현재값과 변화량을 더해 최종값 구하기
             sb.append(input[i]).append(" ");
         }
 
