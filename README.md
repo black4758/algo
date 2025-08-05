@@ -48,3 +48,10 @@
 | [250727](https://github.com/black4758/algo/tree/master/250727) | 투 포인터, 이분 탐색 | | [합이 0인 네 정수](https://www.acmicpc.net/problem/7453) | |
 | [250728](https://github.com/black4758/algo/tree/master/250728) | 정수론, 에라토스테네스의 체 응용 | | [수 나누기 게임](https://www.acmicpc.net/problem/27172) | |
 | [250729](https://github.com/black4758/algo/tree/master/250729) | 투 포인터, 이분 탐색 | | [세 용액](https://www.acmicpc.net/problem/2473) | |
+| [250730](https://github.com/black4758/algo/tree/master/250730) | 투 포인터, 이분 탐색 | | [두 배열의 합](https://www.acmicpc.net/problem/2143) | |
+| [250731](https://github.com/black4758/algo/tree/master/250731) | 슬라이딩 윈도우, 누적 합 | | [블로그](https://www.acmicpc.net/problem/21921) <br> [피자판매](https://www.acmicpc.net/problem/2632) | |
+| [250801](https://github.com/black4758/algo/tree/master/250801) | 브루트포스, 백트래킹 | | [차이를 최대로](https://www.acmicpc.net/problem/10819) <br> [부등호](https://www.acmicpc.net/problem/2529) | |
+| [250802](https://github.com/black4758/algo/tree/master/250802) | 구현, 브루트포스 | | [테트로미노](https://www.acmicpc.net/problem/14500) <br> [셀프 넘버](https://www.acmicpc.net/problem/4673) | |
+| [250803](https://github.com/black4758/algo/tree/master/250803) | 브루트포스, 백트래킹 | | [리모컨](https://www.acmicpc.net/problem/1107) <br> [로마 숫자 만들기](https://www.acmicpc.net/problem/16922) | |
+| [250804](https://github.com/black4758/algo/tree/master/250804) | 그래프, 브루트포스, BFS | | [연구소](https://www.acmicpc.net/problem/14502) | |
+| [250805](https://github.com/black4758/algo/tree/master/250805) | 브루트포스, 구현, BFS | | [한수](https://www.acmicpc.net/problem/1065) <br> [연구소 2](https://www.acmicpc.net/problem/17141) <br> [연구소 3](https://www.acmicpc.net/problem/17142) | |
