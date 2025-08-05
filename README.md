@@ -43,7 +43,7 @@
 | [250722](https://github.com/black4758/algo/tree/master/250722) | 트리, 최단 경로 | | [트리의 지름](https://www.acmicpc.net/problem/1967) | |
 | [250723](https://github.com/black4758/algo/tree/master/250723) | DP, 기하학 | | [진우의 달 여행 (Large)](https://www.acmicpc.net/problem/17485) <br> [내려가기](https://www.acmicpc.net/problem/2096) <br> [다각형의 면적](https://www.acmicpc.net/problem/2166) | |
 | [250724](https://github.com/black4758/algo/tree/master/250724) | 투 포인터, 슬라이딩 윈도우, 누적 합 | | [부분합](https://www.acmicpc.net/problem/1806) <br> [태상이의 훈련소 생활](https://www.acmicpc.net/problem/19951) <br> [수열](https://www.acmicpc.net/problem/2559) | |
-| [250725](https://github.com/black4758/algo/tree/master/250725) | 투 포인터, 누적 합 | | [지민이의 테러 Season II](https://www.acmicpc.net/problem/1650) <br> [수들의 합 2](https://www.acmicpc.net/problem/2003) <br> [2차원 배열의 합](https://www.acmicpc.net/problem/2167) | |
+| [250725](https://github.com/black4758/algo/tree/master/250725) | 투 포인터, 누적 합 | | [어두운 건 무서워](https://www.acmicpc.net/problem/16507) <br> [수들의 합 2](https://www.acmicpc.net/problem/2003) <br> [2차원 배열의 합](https://www.acmicpc.net/problem/2167) | |
 | [250726](https://github.com/black4758/algo/tree/master/250726) | 트리 (이진 검색 트리, 순회) | | [이진 검색 트리](https://www.acmicpc.net/problem/5639) | |
 | [250727](https://github.com/black4758/algo/tree/master/250727) | 투 포인터, 이분 탐색 | | [합이 0인 네 정수](https://www.acmicpc.net/problem/7453) | |
 | [250728](https://github.com/black4758/algo/tree/master/250728) | 정수론, 에라토스테네스의 체 응용 | | [수 나누기 게임](https://www.acmicpc.net/problem/27172) | |
