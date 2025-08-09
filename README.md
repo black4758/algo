@@ -55,3 +55,7 @@
 | [250803](https://github.com/black4758/algo/tree/master/250803) | 브루트포스, 백트래킹 | | [리모컨](https://www.acmicpc.net/problem/1107) <br> [로마 숫자 만들기](https://www.acmicpc.net/problem/16922) | |
 | [250804](https://github.com/black4758/algo/tree/master/250804) | 그래프, 브루트포스, BFS | | [연구소](https://www.acmicpc.net/problem/14502) | |
 | [250805](https://github.com/black4758/algo/tree/master/250805) | 브루트포스, 구현, BFS | | [한수](https://www.acmicpc.net/problem/1065) <br> [연구소 2](https://www.acmicpc.net/problem/17141) <br> [연구소 3](https://www.acmicpc.net/problem/17142) | |
+| [250806](https://github.com/black4758/algo/tree/master/250806) | 브루트포스 | | [영화감독 숌](https://www.acmicpc.net/problem/1436) | |
+| [250807](https://github.com/black4758/algo/tree/master/250807) | 트리, DFS, 그래프 탐색, BFS, 그리디 | | [트리](https://www.acmicpc.net/problem/1068) <br> [현수막](https://www.acmicpc.net/problem/14716) <br> [A → B](https://www.acmicpc.net/problem/16953) <br> [보물섬](https://www.acmicpc.net/problem/2589) | |
+| [250808](https://github.com/black4758/algo/tree/master/250808) | 트리 DP | | [사회망 서비스(SNS)](https://www.acmicpc.net/problem/2533) | |
+| [250809](https://github.com/black4758/algo/tree/master/250809) | 그래프, BFS, DFS | | [이분 그래프](https://www.acmicpc.net/problem/1707) | |
