@@ -11,7 +11,6 @@ public class BOJ13549 {
         int K = Integer.parseInt(st.nextToken());
         int[] visited = new int[100001];
         Queue<Integer> q = new LinkedList<>();
-        int ans=Integer.MAX_VALUE;
         q.add(N);
         Arrays.fill(visited, Integer.MAX_VALUE);
         visited[N] = 0;
@@ -34,6 +33,5 @@ public class BOJ13549 {
                 q.add(now-1);
             }
         }
-        System.out.println(ans);
     }
 }
