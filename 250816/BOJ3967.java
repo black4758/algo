@@ -1,5 +1,3 @@
-package main.java._2025_08_16;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -34,7 +32,7 @@ public class BOJ3967 {
             if(check()){
                 for(int i=0; i<5; i++){
                     for(int j=0; j<9; j++){
-                        sb.append(map[i][j]).append(' ');
+                        sb.append(map[i][j]);
                     }
                     sb.append('\n');
                 }
