@@ -59,3 +59,14 @@
 | [250807](https://github.com/black4758/algo/tree/master/250807) | 트리, DFS, 그래프 탐색, BFS, 그리디 | | [트리](https://www.acmicpc.net/problem/1068) <br> [현수막](https://www.acmicpc.net/problem/14716) <br> [A → B](https://www.acmicpc.net/problem/16953) <br> [보물섬](https://www.acmicpc.net/problem/2589) | |
 | [250808](https://github.com/black4758/algo/tree/master/250808) | 트리 DP | | [사회망 서비스(SNS)](https://www.acmicpc.net/problem/2533) | |
 | [250809](https://github.com/black4758/algo/tree/master/250809) | 그래프, BFS, DFS | | [이분 그래프](https://www.acmicpc.net/problem/1707) | |
+| [250810](https://github.com/black4758/algo/tree/master/250810) | BFS, 다익스트라 | | [숨바꼭질 3](https://www.acmicpc.net/problem/13549) | |
+| [250811](https://github.com/black4758/algo/tree/master/250811) | BFS | | [숨바꼭질 4](https://www.acmicpc.net/problem/13913) | |
+| [250812](https://github.com/black4758/algo/tree/master/250812) | BFS | | [숨바꼭질 5](https://www.acmicpc.net/problem/17071) | |
+| [250813](https://github.com/black4758/algo/tree/master/250813) | BFS | | [숨바꼭질 2](https://www.acmicpc.net/problem/12851) | |
+| [250814](https://github.com/black4758/algo/tree/master/250814) | BFS, DFS | | [다리 만들기](https://www.acmicpc.net/problem/2146) | |
+| [250815](https://github.com/black4758/algo/tree/master/250815) | 백트래킹, 조합 | | [로또](https://www.acmicpc.net/problem/6603) | |
+| [250816](https://github.com/black4758/algo/tree/master/250816) | 백트래킹 | | [매직 스타](https://www.acmicpc.net/problem/3967) | |
+| [250817](https://github.com/black4758/algo/tree/master/250817) | 백트래킹 | | [좋은수열](https://www.acmicpc.net/problem/2661) | |
+| [250818](https://github.com/black4758/algo/tree/master/250818) | 백트래킹, 조합 | | [암호 만들기](https://www.acmicpc.net/problem/1759) | |
+| [250819](https://github.com/black4758/algo/tree/master/250819) | DP, 브루트포스 | | [퇴사](https://www.acmicpc.net/problem/14501) <br> [신기한 소수](https://www.acmicpc.net/problem/2023) | |
+| [250820](https://github.com/black4758/algo/tree/master/250820) | 백트래킹 | | [스도쿠](https://www.acmicpc.net/problem/2580) | |
