@@ -1,5 +1,3 @@
-package main.java._2025_09_04;
-
 import java.io.*;
 import java.util.*;
 
