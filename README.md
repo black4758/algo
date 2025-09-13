@@ -70,3 +70,24 @@
 | [250818](https://github.com/black4758/algo/tree/master/250818) | 백트래킹, 조합 | | [암호 만들기](https://www.acmicpc.net/problem/1759) | |
 | [250819](https://github.com/black4758/algo/tree/master/250819) | DP, 브루트포스 | | [퇴사](https://www.acmicpc.net/problem/14501) <br> [신기한 소수](https://www.acmicpc.net/problem/2023) | |
 | [250820](https://github.com/black4758/algo/tree/master/250820) | 백트래킹 | | [스도쿠](https://www.acmicpc.net/problem/2580) | |
+| [250821](https://github.com/black4758/algo/tree/master/250821) | 백트래킹 | | [스도쿠](https://www.acmicpc.net/problem/2239) | |
+| [250822](https://github.com/black4758/algo/tree/master/250822) | DP | | [1, 2, 3 더하기](https://www.acmicpc.net/problem/9095) | |
+| [250823](https://github.com/black4758/algo/tree/master/250823) | DP | | [피보나치 함수](https://www.acmicpc.net/problem/1003) | |
+| [250824](https://github.com/black4758/algo/tree/master/250824) | DP | | [퇴사 2](https://www.acmicpc.net/problem/15486) | |
+| [250825](https://github.com/black4758/algo/tree/master/250825) | DP | | [가장 긴 바이토닉 부분 수열](https://www.acmicpc.net/problem/11054) <br> [줄세우기](https://www.acmicpc.net/problem/2631) | |
+| [250826](https://github.com/black4758/algo/tree/master/250826) | DP | | [동전 2](https://www.acmicpc.net/problem/2294) | |
+| [250827](https://github.com/black4758/algo/tree/master/250827) | DP | | [RGB거리 2](https://www.acmicpc.net/problem/17404) | |
+| [250828](https://github.com/black4758/algo/tree/master/250828) | DP | | [이친수](https://www.acmicpc.net/problem/2193) | |
+| [250829](https://github.com/black4758/algo/tree/master/250829) | Union-Find | | [친구비](https://www.acmicpc.net/problem/16562) <br> [튜터-튜티 관계의 수](https://www.acmicpc.net/problem/24542) | |
+| [250830](https://github.com/black4758/algo/tree/master/250830) | Union-Find | | [거짓말](https://www.acmicpc.net/problem/1043) <br> [로봇 조립](https://www.acmicpc.net/problem/18116) | |
+| [250831](https://github.com/black4758/algo/tree/master/250831) | Union-Find | | [여행 가자](https://www.acmicpc.net/problem/1976) | |
+| [250901](https://github.com/black4758/algo/tree/master/250901) | Union-Find | | [은하철도](https://www.acmicpc.net/problem/17250) | |
+| [250902](https://github.com/black4758/algo/tree/master/250902) | MST & Dijkstra | | [군사 이동](https://www.acmicpc.net/problem/11085) <br> [택배 배송](https://www.acmicpc.net/problem/5972) | |
+| [250903](https://github.com/black4758/algo/tree/master/250903) | Dijkstra | | [알고스팟](https://www.acmicpc.net/problem/1261) | |
+| [250904](https://github.com/black4758/algo/tree/master/250904) | Union-Find | | [민서의 응급 수술](https://www.acmicpc.net/problem/20955) <br> [친구 네트워크](https://www.acmicpc.net/problem/4195) | |
+| [250905](https://github.com/black4758/algo/tree/master/250905) | 투 포인터 | | [수 고르기](https://www.acmicpc.net/problem/2230) | |
+| [250906](https://github.com/black4758/algo/tree/master/250906) | 이분 탐색 | | [수 찾기](https://www.acmicpc.net/problem/1920) <br> [기타 레슨](https://www.acmicpc.net/problem/2343) | |
+| [250910](https://github.com/black4758/algo/tree/master/250910) | 분할 정복 & 투 포인터 | | [쿼드트리](https://www.acmicpc.net/problem/1992) <br> [두 용액](https://www.acmicpc.net/problem/2470) | |
+| [250911](https://github.com/black4758/algo/tree/master/250911) | 투 포인터 & 분할 정복 | | [좋다](https://www.acmicpc.net/problem/1253) <br> [사분면](https://www.acmicpc.net/problem/1891) | |
+| [250912](https://github.com/black4758/algo/tree/master/250912) | MST | | [네트워크 연결](https://www.acmicpc.net/problem/1922) <br> [별자리 만들기](https://www.acmicpc.net/problem/4386) | |
+| [250913](https://github.com/black4758/algo/tree/master/250913) | MST | | [행성 연결](https://www.acmicpc.net/problem/16398) | |
