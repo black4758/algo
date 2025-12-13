@@ -170,3 +170,9 @@
 | [251204](https://github.com/black4758/algo/tree/master/251204) | 수학, 조합론, 해시 맵 | | [패션왕 신해빈](https://www.acmicpc.net/problem/9375) | |
 | [251205](https://github.com/black4758/algo/tree/master/251205) | 해시 맵 | | [비밀번호 찾기](https://www.acmicpc.net/problem/17219) | |
 | [251206](https://github.com/black4758/algo/tree/master/251206) | 정렬 | | [버블 소트](https://www.acmicpc.net/problem/1377) | |
+| [251207](https://github.com/black4758/algo/tree/master/251207) | 수학, 정수론 | | [최대공약수와 최소공배수](https://www.acmicpc.net/problem/2609) | |
+| [251208](https://github.com/black4758/algo/tree/master/251208) | 수학, 기하학 | | [직각삼각형](https://www.acmicpc.net/problem/4153) | |
+| [251209](https://github.com/black4758/algo/tree/master/251209) | 수학, 구현 | | [웰컴 키트](https://www.acmicpc.net/problem/30802) | |
+| [251210](https://github.com/black4758/algo/tree/master/251210) | 수학, 조합론 | | [이항 계수 1](https://www.acmicpc.net/problem/11050) | |
+| [251211](https://github.com/black4758/algo/tree/master/251211) | 브루트포스 | | [덩치](https://www.acmicpc.net/problem/7568) | |
+| [251212](https://github.com/black4758/algo/tree/master/251212) | 큐, 구현 | | [프린터 큐](https://www.acmicpc.net/problem/1966) | |
