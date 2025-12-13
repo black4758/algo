@@ -176,3 +176,5 @@
 | [251210](https://github.com/black4758/algo/tree/master/251210) | 수학, 조합론 | | [이항 계수 1](https://www.acmicpc.net/problem/11050) | |
 | [251211](https://github.com/black4758/algo/tree/master/251211) | 브루트포스 | | [덩치](https://www.acmicpc.net/problem/7568) | |
 | [251212](https://github.com/black4758/algo/tree/master/251212) | 큐, 구현 | | [프린터 큐](https://www.acmicpc.net/problem/1966) | |
+
+| [251213](https://github.com/black4758/algo/tree/master/251213) | 기하학, 수학, DP | | [삼각형 외우기](https://www.acmicpc.net/problem/10101) <br> [부녀회장이 될테야](https://www.acmicpc.net/problem/2775) | |
