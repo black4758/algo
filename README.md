@@ -179,3 +179,6 @@
 | [251213](https://github.com/black4758/algo/tree/master/251213) | 기하학, 수학, DP | | [삼각형 외우기](https://www.acmicpc.net/problem/10101) <br> [부녀회장이 될테야](https://www.acmicpc.net/problem/2775) | |
 | [251214](https://github.com/black4758/algo/tree/master/251214) | 수학, 정수론 | | [소수 구하기](https://www.acmicpc.net/problem/1929) | |
 | [251215](https://github.com/black4758/algo/tree/master/251215) | 스택, 문자열 | | [균형잡힌 세상](https://www.acmicpc.net/problem/4949) | |
+| [251216](https://github.com/black4758/algo/tree/master/251216) | BFS, 그래프 탐색 | | [불](https://www.acmicpc.net/problem/5427) | |
+| [251217](https://github.com/black4758/algo/tree/master/251217) | 다익스트라, 우선순위 큐 | | [일요일 아침의 데이트](https://www.acmicpc.net/problem/1445) | |
+| [251218](https://github.com/black4758/algo/tree/master/251218) | 수학, 정수론 | | [팩토리얼 0의 개수](https://www.acmicpc.net/problem/1676) | |
