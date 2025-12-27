@@ -4,10 +4,10 @@ import java.io.InputStreamReader;
 public class BOJ2231 {
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        int ans = 0;
         int N = Integer.parseInt(br.readLine());
-        int ans=0;
         for (int i = 1; i <= N; i++) {
-            int sum=i;
+            int sum = i;
             int tmp = i;
             while (tmp > 0) {
                 sum += tmp % 10;
